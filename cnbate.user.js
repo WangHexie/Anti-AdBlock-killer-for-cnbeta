@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         cnbate
+// @name         cnbeta
 // @namespace    http://tampermonkey.net/
 // @version      0.11
 // @description  反 cnbate反广告屏蔽
