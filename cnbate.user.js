@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         cnbeta
+// @name         Anti-AdBlock killer -cnbeta
 // @namespace    http://tampermonkey.net/
-// @version      0.12
-// @description  反 cnbate反广告屏蔽
+// @version      0.13
+// @description  反 cnbate反广告屏蔽  Anti-AdBlock killer 
 // @require https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @author       WangHexie
 // @match        https://www.cnbeta.com/*
