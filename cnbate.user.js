@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cnbeta
 // @namespace    http://tampermonkey.net/
-// @version      0.11
+// @version      0.12
 // @description  反 cnbate反广告屏蔽
 // @require https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @author       WangHexie
