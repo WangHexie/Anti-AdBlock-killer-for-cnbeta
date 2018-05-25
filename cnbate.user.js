@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         cnbate
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
+// @version      0.11
+// @description  反 cnbate反广告屏蔽
 // @require https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @author       WangHexie
 // @match        https://www.cnbeta.com/*
