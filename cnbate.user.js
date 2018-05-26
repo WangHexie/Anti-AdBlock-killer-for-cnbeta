@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Anti-AdBlock killer -cnbeta
 // @namespace    http://tampermonkey.net/
-// @version      0.13
+// @version      0.20
 // @description  反 cnbate反广告屏蔽  Anti-AdBlock killer 
 // @require https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @author       WangHexie
@@ -12,11 +12,19 @@
 (function() {
     'use strict';
     $(document).ready(function(){
-        setTimeout(
-            function()
-            {
-                var y = y = $('body div[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]');
-                y.hide();
-            }, 1000);
+        var LB = function(i){
+            setTimeout(
+                function()
+                {
+                    var y = y = $('body div[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]');
+                    y.hide();
+                }, i*50);
+        }
+        var len = 40;
+
+        for (var i =0; i<len; i++)
+        {
+            LB(i);
+        }
     });
 })();
