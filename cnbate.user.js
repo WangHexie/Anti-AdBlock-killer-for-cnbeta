@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Anti-AdBlock killer -cnbeta
 // @namespace    http://tampermonkey.net/
-// @version      0.20
+// @version      0.30
 // @description  反 cnbate反广告屏蔽  Anti-AdBlock killer 
 // @require https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @author       WangHexie
 // @match        https://www.cnbeta.com/*
+// @match        https://*.cnbeta.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -21,7 +22,6 @@
                 }, i*50);
         }
         var len = 40;
-
         for (var i =0; i<len; i++)
         {
             LB(i);
